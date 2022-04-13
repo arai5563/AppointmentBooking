@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Calc from './component/Calc';
+import AvailableDocs from './Component/AvailableDocs';
+
 
 function App() {
   return (
     <div className="App">
-     <Calc/>
+     <AvailableDocs/>
     </div>
   );
 }
